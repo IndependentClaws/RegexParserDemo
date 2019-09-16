@@ -13,6 +13,8 @@
 		D75A90D5232F600F004CFF1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75A90D4232F600F004CFF1C /* Assets.xcassets */; };
 		D75A90D8232F600F004CFF1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75A90D6232F600F004CFF1C /* LaunchScreen.storyboard */; };
 		D75A90DB232F600F004CFF1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A90DA232F600F004CFF1C /* main.m */; };
+		D75A90E5232F6042004CFF1C /* RangeWord.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A90E2232F6041004CFF1C /* RangeWord.m */; };
+		D75A90E6232F6042004CFF1C /* RegexParser.m in Sources */ = {isa = PBXBuildFile; fileRef = D75A90E4232F6042004CFF1C /* RegexParser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		D75A90D7232F600F004CFF1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D75A90D9232F600F004CFF1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D75A90DA232F600F004CFF1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D75A90E1232F6041004CFF1C /* RegexParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexParser.h; sourceTree = "<group>"; };
+		D75A90E2232F6041004CFF1C /* RangeWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RangeWord.m; sourceTree = "<group>"; };
+		D75A90E3232F6042004CFF1C /* RangeWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RangeWord.h; sourceTree = "<group>"; };
+		D75A90E4232F6042004CFF1C /* RegexParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexParser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		D75A90CA232F600D004CFF1C /* RegexParserDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D75A90E3232F6042004CFF1C /* RangeWord.h */,
+				D75A90E2232F6041004CFF1C /* RangeWord.m */,
+				D75A90E1232F6041004CFF1C /* RegexParser.h */,
+				D75A90E4232F6042004CFF1C /* RegexParser.m */,
 				D75A90CB232F600D004CFF1C /* AppDelegate.h */,
 				D75A90CC232F600D004CFF1C /* AppDelegate.m */,
 				D75A90CE232F600D004CFF1C /* ViewController.h */,
@@ -141,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75A90E6232F6042004CFF1C /* RegexParser.m in Sources */,
 				D75A90D0232F600D004CFF1C /* ViewController.m in Sources */,
 				D75A90DB232F600F004CFF1C /* main.m in Sources */,
 				D75A90CD232F600D004CFF1C /* AppDelegate.m in Sources */,
+				D75A90E5232F6042004CFF1C /* RangeWord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
